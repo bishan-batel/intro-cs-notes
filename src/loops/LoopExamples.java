@@ -24,15 +24,7 @@ public class LoopExamples
 //		Upper to lower bound ranges
 
 		// Range: 2 - 7
-		int lowerBound = 2;
-		int upperBound = 7; // Ends at upper bound
-		counter = lowerBound; // Starts at Lower bound
-
-		while (counter <= upperBound)
-		{
-			System.out.println("lol");
-			counter += 1;
-		}
+		
 
 //		Practical Use for loops
 //		Cannot use multiplication *
