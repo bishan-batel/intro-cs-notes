@@ -1,5 +1,3 @@
-package src.loops;
-
 public class LoopExamples
 {
 	public static void main(String[] args)
@@ -62,26 +60,3 @@ public class LoopExamples
 		}
 	}
 }
-// phone turning on . . .
-// oh im stupid
-// oh im so sorry
-// that ive been dumb inf ront of the great fucking tiffany
-// oh im dumb i dont even need to teach you this shit
-// you're so fucking smart
-// how bout you do it yourself
-// thats right bitch
-// never acll me dumb you actual fucking nematoad
-// fucking neolithic creature unga bunga caveman tiffany
-// shut the fuck up piece of shit asian
-// sorry not asian remember when we were at my houes and you were about
-// to put away you're fucking chopsticks
-// fucking joao was using chopsticks you cringe ass piece of shit
-// whitewashed piece of shit yet still dirty as fuck
-// dumbest fucking human I've ever met in my fucking life what the fuck
-// i hope it does bitch
-// i would say kys but then i would have to go to your funeral
-// i would spit on it
-// i would spit on everyone there except for wayne.
-// fuck you i love you boris but you're still somewhat related to tiffany
-// even if not by blood
-// that's not hand sanitizer
