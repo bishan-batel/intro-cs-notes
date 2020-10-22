@@ -1,3 +1,10 @@
+/*
+Simple Program explaining how to loop over a setup of numbers
+from a set lowerBound to a setHigherBound
+ex:
+range [4-9]
+output: 4, 5, 6, 7, 8, 9
+*/
 public class Ranges {
   public static void main(String[] args) {
     // Range 2-7
