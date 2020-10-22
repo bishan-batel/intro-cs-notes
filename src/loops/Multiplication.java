@@ -10,7 +10,6 @@
 
 public class Multiplication {
   public static void main(String[] args) {
-
     // 3 * 2
     // 3 + 3, 2 amount of times
 
