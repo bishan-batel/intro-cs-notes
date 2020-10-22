@@ -20,9 +20,8 @@ public class Summation {
 
     System.out.println("Enter a upper bound: "); // Queries user for upper bound
     upperBound = kb.nextInt(); // Stores uesr input to 'upperBound'
-
-    // Loops through every integer between 1 and user defined upperBound
-    while (counter <= upperBound) {
+    
+    while (counter <= upperBound) { // Loops through every integer between 1 and user defined upperBound
       sum = sum + counter; // Adds current count to previous sum and stores back to sum
       counter += 1; // Counts up counter variable
     }

@@ -15,13 +15,12 @@ public class Multiplication {
     // 3 + 3, 2 amount of times
 
     // Program tries to find a * b
-    int a = 2; 
+    int a = 2;
     int b = 4;
     int product = 0; // Value for sum
 
     int counter = 0;
-    while (counter < b) // repeats interior code 'b' amount of times
-    {
+    while (counter < b) { // repeats interior code 'b' amount of times
       product = product + a; // adds 'a' to product every time code is ran
       counter = counter + 1;
     }
