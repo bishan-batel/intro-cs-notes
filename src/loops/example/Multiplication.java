@@ -1,3 +1,5 @@
+package example;
+
 /*
   Practical use of Loops
   Project Concept:
