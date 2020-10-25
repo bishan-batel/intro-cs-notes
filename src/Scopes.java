@@ -14,8 +14,6 @@ public class Scopes {
     System.out.println(counter);
 
     while (counter < 10) {
-
-      
       System.out.println(counter);
       counter = counter + 1;
     }
