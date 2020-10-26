@@ -1,6 +1,7 @@
 /* 
   Modeling DoWhile Loops in Java
 */
+@SuppressWarnings("unchecked") // Ignore this
 public class DoWhile {
   public static void main(String[] args) {
     /*
@@ -18,18 +19,16 @@ public class DoWhile {
     /*
      * Listed as instructions, this is how a while loop works
      * 
-     * 1. If condition is true, continue to steps 2 & 3, if not skip to step 4 
-     * 2. Execute code in code body 
-     * 3. Return to step 1 
-     * 4. // other code outside of while loop
+     * 1. If condition is true, continue to steps 2 & 3, if not skip to step 4 2.
+     * Execute code in code body 3. Return to step 1 4. // other code outside of
+     * while loop
      * 
      * Because of this, if we have a statement with an always false conditional, the
      * code will never run, because it checks the condition as soon as it runs the
      * while statement
      */
 
-
-    while (true) {
+    while (false) {
       System.out.println("This message will never print out");
     }
 
@@ -37,9 +36,8 @@ public class DoWhile {
      * The difference with a do while loop is that the instructions would look like
      * this instead:
      * 
-     * 1. Run code body 
-     * 2. If condition is true, go back to step 1, if not, continue forward 
-     * 3. // other code outside of do while loop
+     * 1. Run code body 2. If condition is true, go back to step 1, if not, continue
+     * forward 3. // other code outside of do while loop
      */
 
     do {
