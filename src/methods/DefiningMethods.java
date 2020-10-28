@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /* 
 * Program to show modularizing your code through defining methods
 */
@@ -20,6 +22,14 @@ public class DefiningMethods {
     quirkifiedMekala = quirk(name);
     System.out.println(quirkifiedMekala);
 
-    System.out.println( add(2, 3) );
+    System.out.println(add(2, 3));
+  }
+
+  public static int addSum(int... num) {
+    int sum = 0;
+    for (int i = 0; i < num.length; i++) {
+      sum += num[i];
+    }
+    return sum;
   }
 }

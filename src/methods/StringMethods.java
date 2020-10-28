@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// No comments on this yet, still WIP
+
 public class StringMethods {
   public static void main(String[] args) {
 
@@ -13,7 +15,7 @@ public class StringMethods {
     if (reply == 'y') {
       System.out.println("lol yes");
     } else if (reply == 'n') {
-      System.out.println("lol nah");  
+      System.out.println("lol nah");
     } else {
       System.out.println("enter something right dipshit");
     }
