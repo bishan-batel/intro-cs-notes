@@ -18,6 +18,7 @@ public class UsingMethods {
 
     int n = -4;
     int result;
+    
     /*
      * To call the new methods that java.lang.Math presents us, we must use the
      * syntax of the class name ('math') and name of the methods
