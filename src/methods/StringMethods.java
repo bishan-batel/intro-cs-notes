@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// No comments on this yet, still WIP
+// TODO: WRITE DOCUMENTATION
 
 public class StringMethods {
   public static void main(String[] args) {
@@ -19,5 +19,8 @@ public class StringMethods {
     } else {
       System.out.println("enter something right dipshit");
     }
+
+    int a = 2, b = 3;
+    System.out.println("rofl a + b is " + " " + " " + b + " ");
   }
 }
