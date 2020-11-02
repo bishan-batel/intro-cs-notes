@@ -19,8 +19,6 @@ public class StringMethods {
     } else {
       System.out.println("enter something right dipshit");
     }
-
-    int a = 2, b = 3;
-    System.out.println("rofl a + b is " + " " + " " + b + " ");
+    kb.close();
   }
 }

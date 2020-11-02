@@ -1,7 +1,8 @@
 /* 
-* This program models an intro on how to define & use methods
-!: This program can be run to help understand code
+ * This program models an intro on how to define & use methods
+ !: This program can be run to help understand code
 */
+
 public class DefineMethods1 {
   /*
    * A method is essentially a way we can reuse code in java. It is a way to
@@ -38,14 +39,13 @@ public class DefineMethods1 {
     printDivider();
     /*
      * When the java runtime enviorment (JRE) gets to this line above, it will run
-     * the code above
+     * the code above, and print "-----------"
      * 
      * Note that this method can be called however many times we want
      */
 
     for (int i = 0; i < 1000000; i++) {
-      printDivider(); // * Runs 'printDivider()' 1 million times
+      printDivider(); // * Runs 'printDivider()' 1 million times and prints "-----------" 1mil times
     }
-
   }
 }
