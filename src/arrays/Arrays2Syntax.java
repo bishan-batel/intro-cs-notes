@@ -5,7 +5,7 @@ Explanation of syntax use in arrayus
 TODO: DOCUMENTATION
 */
 
-import java.util.Scanenr;
+import java.util.Scanner;
 
 public class Arrays2Syntax {
   public static void main(String[] args) {
@@ -94,7 +94,11 @@ public class Arrays2Syntax {
 
     System.out.println("(<--IMPLICIT-->)"); // Divider line
 
-    // Implicit
+    /*
+     * Implicit Example:
+     * 
+     * Whenever you run the program, it prints out a random mekala quote
+     */
     final String[] MEKALA_QUOTES = { "what", "gross", "gremlin noises", "noises", "gremlin", "loud yelling" };
 
     int index = (int) (Math.random() * MEKALA_QUOTES.length);
@@ -105,11 +109,30 @@ public class Arrays2Syntax {
 
     System.out.println(MEKALA_QUOTES[index]); // Prints out a random quote
 
-    System.out.println("(<--IMPLICIT-->)"); // Divider line
+    System.out.println("(<--EXPLICIT-->)"); // Divider line
 
-    // Explicit
+    /*
+     * Explicit Example:
+     * 
+     * A program that asks for 5 names, then after you input all 5, it prints out
+     * each of those names with "im so quirky doe"
+     * 
+     * eg. you enter "Mekala", "Tiffany", "Ansari", "Tan", "Sam"
+     * 
+     * and it will output:
+     * 
+     * Mekala: Im so quirky doe
+     * 
+     * Tiffany: Im so quirky doe
+     * 
+     * Ansari: Im so quirky doe
+     * 
+     * Tan: Im so quirky doe
+     * 
+     * Sam: Im so quirky doe
+     */
     Scanner kb = new Scanner(System.in);
-    int[] names = new int[10];
+    String[] names = new String[5];
 
     System.out.println("Enter " + names.length + " names: ");
 
