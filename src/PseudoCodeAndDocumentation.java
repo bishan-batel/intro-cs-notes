@@ -35,5 +35,7 @@ public class PseudoCodeAndDocumentation {
 
     // Displays final output
     System.out.println("Sum of all integers between 1-" + upperBound + " is equal to " + sum);
+    
+    kb.close();
   }
 }

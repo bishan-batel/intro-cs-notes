@@ -4,7 +4,7 @@
 */
 import java.util.Scanner;
 
-public class Arrays {
+public class Arrays1Intro {
   public static void main(String[] args) {
     /*
      * An array is essentially a list of variables of a certain datatype

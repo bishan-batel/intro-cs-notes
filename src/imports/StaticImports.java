@@ -5,7 +5,7 @@
  WIP On documentgation
 */
 
-import static java.lang.Math.sin;
+import static java.lang.Math.*;
 /* 
 Staticly imported the Math.sin method directly like this allows us to bypass having
 to write Math.(method_name_here)() and just use the method name without the class reference
