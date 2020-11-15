@@ -99,7 +99,8 @@ public class Arrays2Syntax {
      * 
      * Whenever you run the program, it prints out a random mekala quote
      */
-    final String[] MEKALA_QUOTES = { "what", "gross", "gremlin noises", "noises", "gremlin", "loud yelling" };
+    final String[] MEKALA_QUOTES = { "what", "gross", "gremlin noises", "noises", "gremlin", "loud yelling",
+        "gremlin" };
 
     int index = (int) (Math.random() * MEKALA_QUOTES.length);
     /*
